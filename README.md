@@ -16,23 +16,37 @@ The agent loop is handled by the OpenAI Agents SDK (`Runner.run`), which repeate
 git clone <YOUR_REPO_URL>
 cd <YOUR_REPO_FOLDER>
 code .
+```
 
 ### 2) Create and activate a virtual environment
 
 Python: 
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 Windows (Powershell):
+
+```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
 
 ### 3) Install dependencies
+
+```bash
 pip install -r requirements.txt
 
+```
+
 ### 4) Add your API key 
-Log into your OpenAI account to get your secret unique API key
+
+Log into your OpenAI account to get your secret unique API key. Add this to the .env file
 
 ### 5) Run 
+
+```bash
 python agent_app.py 
+```
 
